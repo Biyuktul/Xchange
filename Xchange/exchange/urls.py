@@ -1,6 +1,8 @@
 from django.urls import path, include
-from . import api
+
+from .api import hi_api
+
 
 urlpatterns = [
-    path('/react', include('exchange.urls')),
+    path('api/', hi_api, name='hi_api'),
 ]
