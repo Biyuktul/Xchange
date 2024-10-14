@@ -14,7 +14,7 @@ This Django-based project scrapes exchange rate data from multiple Ethiopian ban
 ## Folder Structure
 - myenv: Virtual enviroment to isolate dependencies
 - Xchange: Django Project Folder that contains the main scraping logic
-- xchange-_front: A react project folder that contains react code that consumes and display the data fetched from the backend [django] 
+- xchange_front: A react project folder that contains react code that consumes and display the data fetched from the backend [django] 
 
 ## How to Run
 1. Clone the repository.
